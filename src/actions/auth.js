@@ -29,6 +29,6 @@ export const start__logOut = () => {
     firebase
       .auth()
       .signOut()
-      .then(() => dispatch(logout()));
+      .then(() => dispatch(logOut()));
   };
 };

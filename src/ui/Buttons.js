@@ -9,7 +9,7 @@ const Button = styled.button`
   border-radius: 4px;
   box-shadow: ${props => props.theme.button.shadow};
   cursor: pointer;
-  font-family: ${props => props.theme.fonts.pts};
+  font-family: ${props => props.theme.fonts.sans};
   font-size: 1rem;
   line-height: 1.414 * 1rem;
   text-shadow: none;

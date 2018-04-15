@@ -1,4 +1,4 @@
-// import { db } from '../firebase/firebase';
+import { db } from "../firebase/firebase";
 
 export const addArticle = (article = {}) => ({
   type: "ADD_ARTICLE",

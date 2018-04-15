@@ -38,8 +38,19 @@ const ParagraphLarge = Paragraph.extend`
 `;
 
 const ParagraphSmall = Paragraph.extend`
-  font-size: 13.5px;
-  line-height: calc(13.5px * 1.414);
+  font-size: 15px;
+  line-height: calc(15px * 1.414);
+  color: ${props => props.theme.colors.textDark};
+`;
+
+const CategoryHeader = styled.div`
+  font-size: 16px;
+  line-height: calc(16px * 1.414);
+  font-weight: 700;
+  font-family: ${props => props.theme.fonts.sans};
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: ${props => props.theme.colors.textExtraDark};
 `;
 
 export {
@@ -47,5 +58,6 @@ export {
   HeadlineLarge,
   Subtitle,
   ParagraphLarge,
-  ParagraphSmall
+  ParagraphSmall,
+  CategoryHeader
 };

@@ -1,5 +1,6 @@
 import Container from "./Container";
 import {
+  CategoryHeader,
   HeadlineLarge,
   HeadlineSmall,
   ParagraphLarge,
@@ -10,6 +11,7 @@ import { Button, BackButton } from "./Buttons";
 
 export {
   Container,
+  CategoryHeader,
   HeadlineLarge,
   HeadlineSmall,
   ParagraphLarge,
