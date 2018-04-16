@@ -15,7 +15,8 @@ const theme = {
   fonts: {
     serif: "'PT Serif', serif",
     sans: "'PT Sans', sans-serif",
-    brand: "'Berkshire Swash', cursive"
+    brand: "'Berkshire Swash', cursive",
+    narrow: "'PT Sans Narrow', sans-serif"
   },
   button: {
     margin: "0",
@@ -25,8 +26,6 @@ const theme = {
   },
   text: {
     bold: "700",
-    semiBold: "600",
-    thin: "300",
     xs: "13.5px",
     m: "16px",
     l: "20px",

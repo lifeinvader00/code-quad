@@ -2,6 +2,7 @@ import { injectGlobal } from "styled-components";
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700');
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
   @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
   html, body, div, span, applet, object, iframe,
